@@ -129,7 +129,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 1.5em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .testimonial-headshot > img {
@@ -164,6 +164,9 @@ ul {
 .testimonial-card:first-child {
     background-color: var(--purple);
     color: white;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-position: 70% 0%;
+    background-repeat: no-repeat;
 }
 
 .testimonial-card:nth-child(2){
